@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Armonia Mujer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #E5E3DC; /* Beige claro */
+            color: #4A4A4A; /* Texto general en gris oscuro para mejor lectura */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #BAB6D2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #C7C6D5;
+        }
+        header img {
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #FBFBFB;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #BAB6D2;
+        }
+        .form-container {
+            background-color: #C7C6D5;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #FBFBFB;
+        }
+        button {
+            background-color: #BAB6D2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #A4A0C0;
+        }
+        footer {
+            background-color: #C7C6D5;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src= "paginaWeb/img/mujer.jpg" alt= "Logotipo de la empresa">
+        <h1>Consultas Psicológicas</h1>
+        <p>Tu bienestar emocional es nuestra prioridad</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Misión</h2>
+            <p>
+                Brindar un espacio seguro de apoyo y acompañamiento psicológico a mujeres víctimas de violencia mayores de edad en la ciudad de Morelia, Michoacán, mediante terapia psicológica y grupos de acompañamiento.
+            </p>
+        </section>
+
+        <section>
+            <h2>Agendar una cita</h2>
+            <div class="form-container">
+                <form action="#" method="post">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo" required>
+
+                    <label for="date">Fecha preferida</label>
+                    <input type="date" id="date" name="date">
+
+                    <label for="message">Mensaje adicional</label>
+                    <textarea id="message" name="message" placeholder="Escribe cualquier detalle importante..." rows="4"></textarea>
+
+                    <button type="submit">Agendar cita</button>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contacto</h2>
+            <p>Teléfono: <a href="tel:4434595944">443 459 5944</a></p>
+        </section>
+
+        <section>
+            <h2>Dirección</h2>
+            <p>Calle Sinaloa, Colonia Molino de Parras #104, Morelia, Michoacán</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Armonia Mujer - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
